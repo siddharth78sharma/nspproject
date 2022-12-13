@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    overflow-x:hidden ;
+}
+.main-width{
+    /* background-color: var(--color-skyblue); */
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.hero{
+    /* height: 100%; */
+    width: 100%;
+    /* min-height: 100vh;  */
+    /* background:rgb(248, 146, 62) ; */
+    /* background: radial-gradient(#f6d796,20%,#f0ab16); */
+    /* background-size: 500px;  */
+    /* position: relative; */
+}
+.hero header .logo h2 a{
+    display: black;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: name;
+    color: white;
+    margin-left: 40px;
+}
+.hero header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+}
+.hero .main-width header{
+    position: absolute;
+    /* display: flexbox; */
+    margin-left: -35px;
+    background-color: lightskyblue;
+    /* border:2px solid #f5dca8; */
+    /* border-radius: 20px; */
+     max-height: 150px; 
+     min-width: 100vh; 
+     align-items: center; 
+    width: 100%;
+}
+nav ul li{
+    list-style: name;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: name;
+    color: white;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li :not(:last-child) a:focus{
+    border-bottom: 2px solid white;
+}
+nav ul li.active a{
+    border-bottom: 2px solid white;
+}
+nav ul li.btn a{
+    background: transparent;
+    color: white;
+    border:1px solid #f5dca8 ;
+    padding:9px 20px;
+    border-radius: 30px ;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+nav ul li.btn:hover a{
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: .4s;
+}
+.hero .page{
+    width: 100%;
+    padding: 78px 25px 25px;
+    background-color: #191919;
+    /* display: contents; */
+}
+.page-text {
+    margin-top: 10%;
+    width: 550px;
+}
+.page{
+    width: 1130px;
+    /* max-width: 95%; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.page img{
+    height: auto;
+    width: 420px;
+}
+.page-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.page-text h6{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.page-text p{
+    color: gray;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+span{
+    color: red;
+}
